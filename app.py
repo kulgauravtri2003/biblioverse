@@ -1,5 +1,5 @@
 # ==========================================
-# 🐞 SQLITE PATCH (MUST BE TOP)
+# 🐞 SQLITE PATCH 
 # ==========================================
 import sys
 __import__('pysqlite3')
@@ -468,6 +468,7 @@ if "username" not in st.session_state:
                     else: st.error(msg)
 else:
     main_app()
+
 
 
 
